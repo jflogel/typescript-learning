@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "target"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./src/greeter.ts"
+    ]
+}
