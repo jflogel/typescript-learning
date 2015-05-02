@@ -1,5 +1,18 @@
-function greeter(person) {
-    return "Hello, " + person;
+interface Person {
+  first: String;
+  last: String;
 }
-var user = "Jane User";
+
+class Student {
+  fullname : string;
+  constructor(public first, public middleinitial, public last) {
+      this.fullname = first + " " + middleinitial + " " + last;
+  }
+}
+
+function greeter(person: Person) {
+    return "Hello, " + person.first + ' ' + person.last;
+}
+
+var user = new Student("Jane", "A", "User");
 document.body.innerHTML = greeter(user);

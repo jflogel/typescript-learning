@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "outDir": "target"
+        "outDir": "target",
+        "target": "es5"
     },
     "filesGlob": [
         "./**/*.ts",
