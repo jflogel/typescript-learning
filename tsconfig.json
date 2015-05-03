@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "target",
+        "outDir": "app/javascript",
         "target": "es5"
     },
     "filesGlob": [
@@ -8,6 +8,6 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
-        "./src/greeter.ts"
+        "./app/typescript/greeter.ts"
     ]
 }

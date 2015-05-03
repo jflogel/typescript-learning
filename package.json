@@ -12,7 +12,6 @@
     "typescript": "^1.5.0-beta"
   },
   "dependencies": {
-    "express": "^4.12.3",
-    "body-parser": "^1.12.3"
+    "express": "^4.12.3"
   }
 }

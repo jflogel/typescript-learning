@@ -1,13 +1,13 @@
 interface Person {
-  first: String;
-  last: String;
+    first: String;
+    last: String;
 }
 
 class Student {
-  fullname : string;
-  constructor(public first, public middleinitial, public last) {
-      this.fullname = first + " " + middleinitial + " " + last;
-  }
+    fullname: string;
+    constructor(public first, public middleinitial, public last) {
+        this.fullname = first + " " + middleinitial + " " + last;
+    }
 }
 
 function greeter(person: Person) {
