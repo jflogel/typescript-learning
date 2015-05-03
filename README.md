@@ -1,4 +1,6 @@
-Build notes:
+Build:
 * npm install
-* ./node_modules/.bin/tsc --rootDir src --outDir target **/*.ts
-* node web.js
+* npm build
+
+Run:
+* npm start
